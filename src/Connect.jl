@@ -28,8 +28,8 @@ function push(client::ConnectClient, collection::String, data::Dict{Any,Any})
   return r
 end
 
-function query(collection::String, query::String, client::ConnectClient=connect)
-  #TODO
+function query(client::ConnectClient, collection::String, query::String)
+
 end
 
 
