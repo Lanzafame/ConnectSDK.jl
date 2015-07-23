@@ -1,5 +1,7 @@
 using Connect
 using Base.Test
+Pkg.add("JSON")
+Pkg.add("HTTPClient")
 using JSON
 using HTTPClient.HTTPC
 
