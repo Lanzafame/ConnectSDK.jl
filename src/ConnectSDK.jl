@@ -1,4 +1,4 @@
-module Connect
+module ConnectSDK
 
 using HTTPClient.HTTPC
 using JSON
