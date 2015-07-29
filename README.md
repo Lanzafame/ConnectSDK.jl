@@ -9,13 +9,13 @@ Sign up at [https://getconnect.io](https://getconnect.io) to generate and retrie
 ## Installation
 
 ```julia
-Pkg.add("Connect")
+Pkg.add("ConnectSDK")
 ```
 
 ## Usage
 
 ```julia
-using Connect
+using ConnectSDK
 
 connect = ConnectClient(projectid, apikey)
 

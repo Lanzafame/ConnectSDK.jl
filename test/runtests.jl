@@ -1,4 +1,4 @@
-using Connect
+using ConnectSDK
 using JSON
 using HTTPClient.HTTPC
 using Base.Test
