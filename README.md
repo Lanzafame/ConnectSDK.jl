@@ -9,7 +9,7 @@ Sign up at [https://getconnect.io](https://getconnect.io) to generate and retrie
 ## Installation
 
 ```julia
-Pkg.add("ConnectSDK")
+Pkg.clone("https://github.com/Lanzafame/ConnectSDK.jl.git")
 ```
 
 ## Usage
