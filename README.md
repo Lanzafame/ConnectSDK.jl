@@ -1,6 +1,6 @@
 # Connect Julia SDK
 
-[![Build Status](https://travis-ci.org/Lanzafame/Connect.jl.svg?branch=master)](https://travis-ci.org/Lanzafame/ConnectSDK.jl)
+[![Build Status](https://travis-ci.org/Lanzafame/ConnectSDK.jl.svg?branch=master)](https://travis-ci.org/Lanzafame/ConnectSDK.jl)
 
 This is a community maintained package for the Connect API.
 
