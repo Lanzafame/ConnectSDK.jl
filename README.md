@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/Lanzafame/Connect.jl.svg?branch=master)](https://travis-ci.org/Lanzafame/ConnectSDK.jl)
 
+This is a community maintained package for the Connect API.
+
 ## Getting Access
 
 Sign up at [https://getconnect.io](https://getconnect.io) to generate and retrieve your API keys so that you can start using the SDK.
