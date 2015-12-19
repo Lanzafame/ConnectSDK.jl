@@ -10,9 +10,9 @@ export push
 type ConnectClient
   projectid
   apikey
-  baseurl::String
+  baseurl::AbstractString
 
-  function ConnectClient(projectid::String, apikey::String)
+  function ConnectClient(projectid::AbstractString, apikey::AbstractString)
 	baseurl = "https://api.getconnect.io/events/"
 	projectid = ("X-Project-Id", projectid)
 	apikey = ("X-Api-Key", apikey)
@@ -22,13 +22,13 @@ type ConnectClient
 
 end #ConnectClient
 
-function push(client::ConnectClient, collection::String, data::Dict{Any,Any})
+function push(client::ConnectClient, collection::AbstractString, data::Dict{Any,Any})
   data = JSON.json(data)
   r = HTTPC.post(client.baseurl * collection, data, RequestOptions(headers=[client.projectid, client.apikey]))
   return r
 end
 
-function query(client::ConnectClient, collection::String, query::String)
+function query(client::ConnectClient, collection::AbstractString, query::AbstractString)
 
 end
 
