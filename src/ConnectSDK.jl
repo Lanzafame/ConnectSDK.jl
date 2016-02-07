@@ -2,6 +2,7 @@ module ConnectSDK
 
 using HTTPClient.HTTPC
 using JSON
+using Compat
 
 export ConnectClient
 export push
